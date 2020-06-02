@@ -29,7 +29,7 @@ class Setup:
 
             # clone branch da-mis
             git_command = [
-                "git", "clone","-b", "logo_change", "https://github.com/digitalgreenorg/da-mis-docker",
+                "git", "clone", "https://github.com/digitalgreenorg/da-mis-docker",
                 config["kobodocker_path"]
             ]
             CLI.run_command(git_command, cwd=os.path.dirname(
