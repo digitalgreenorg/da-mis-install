@@ -3,7 +3,11 @@
     "linked form and data server": {
         "name": "MoA DA Register",
         "server url": "",
-        "encryption key": "${ENKETO_ENCRYPTION_KEY}"
+        "encryption key": "${ENKETO_ENCRYPTION_KEY}",
+        "authentication" : {
+            "type": "cookie",
+            "url": "http://${KOBOFORM_SUBDOMAIN}.${PUBLIC_DOMAIN_NAME}/accounts/login/?next={RETURNURL}"
+        }
     },
     "logo": {
         "source": "/images/logo_small.png",
@@ -42,10 +46,6 @@
         "../../../node_modules/enketo-image-customization-widget/image-customization",
         "../../../node_modules/enketo-literacy-test-widget/literacywidget"
     ],
-    "authentication" : {
-        "type": "cookie",
-        "url": "http://${KOBOFORM_SUBDOMAIN}.${PUBLIC_DOMAIN_NAME}/accounts/login/?next={RETURNURL}"
-    },
     "redis": {
         "cache": {
             "host": "redis-cache.${PRIVATE_DOMAIN_NAME}",
