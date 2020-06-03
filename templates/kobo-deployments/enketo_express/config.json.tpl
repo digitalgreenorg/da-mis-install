@@ -6,7 +6,7 @@
         "encryption key": "${ENKETO_ENCRYPTION_KEY}"
     },
     "logo": {
-        "source": "logo_small.png",
+        "source": "/images/logo_small.png",
         "href": ""
     },
     "widgets": [
