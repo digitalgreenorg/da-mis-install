@@ -42,6 +42,10 @@
         "../../../node_modules/enketo-image-customization-widget/image-customization",
         "../../../node_modules/enketo-literacy-test-widget/literacywidget"
     ],
+    "authentication" : {
+        "type": "cookie",
+        "url": "http://${KOBOFORM_SUBDOMAIN}.${PUBLIC_DOMAIN_NAME}/accounts/login/?next={RETURNURL}"
+    },
     "redis": {
         "cache": {
             "host": "redis-cache.${PRIVATE_DOMAIN_NAME}",
