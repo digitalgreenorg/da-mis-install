@@ -29,7 +29,7 @@ class Config:
     DEFAULT_NGINX_PORT = "80"
     DEFAULT_NGINX_HTTPS_PORT = "443"
     KOBO_DOCKER_BRANCH = 'logo_change'
-    KOBO_INSTALL_BRANCH = 'master'
+    KOBO_INSTALL_BRANCH = 'da-mis'
     KOBO_INSTALL_VERSION = '2.2.1'
 
     # Maybe overkill. Use this class as a singleton to get the same configuration

@@ -3,12 +3,12 @@ from setuptools import find_packages
 from helpers.config import Config
 
 setup(
-    name='KoBoInstall',
+    name='DigitalGreen',
     version=Config.KOBO_INSTALL_VERSION,
     packages=find_packages(exclude=['tests']),  # Include all the python modules except `tests`,
-    url='https://github.com/kobotoolbox/kobo-install/',
+    url='https://github.com/digitalgreenorg/da-mis-install/',
     license='',
-    author='KoBoToolbox',
+    author='DigitalGreen',
     author_email='',
-    description='Installer for KoBoToolbox'
+    description='Installer for DA MIS System'
 )

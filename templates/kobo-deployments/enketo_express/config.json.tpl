@@ -1,9 +1,13 @@
 {
-    "app name": "Enketo Express for KoBo Toolbox",
+    "app name": "MoA DA Register",
     "linked form and data server": {
-        "name": "KoBo Toolbox",
+        "name": "MoA DA Register",
         "server url": "",
         "encryption key": "${ENKETO_ENCRYPTION_KEY}"
+    },
+    "logo": {
+        "source": "logo_small.png",
+        "href": ""
     },
     "widgets": [
         "note",
