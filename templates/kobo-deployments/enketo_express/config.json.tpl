@@ -10,7 +10,7 @@
         }
     },
     "logo": {
-        "source": "/images/dg_logo.png",
+        "source": "/images/dg_gray_logo.png",
         "href": ""
     },
     "widgets": [
