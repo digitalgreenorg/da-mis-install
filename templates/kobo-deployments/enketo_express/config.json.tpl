@@ -44,7 +44,8 @@
         "rating",
         "thousands-sep",
         "../../../node_modules/enketo-image-customization-widget/image-customization",
-        "../../../node_modules/enketo-literacy-test-widget/literacywidget"
+        "../../../node_modules/enketo-literacy-test-widget/literacywidget",
+        "../../../node_modules/enketo-ethiopian-calendar-widget/ethiopian-calendar"
     ],
     "redis": {
         "cache": {
