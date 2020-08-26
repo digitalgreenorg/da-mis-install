@@ -3,11 +3,7 @@
     "linked form and data server": {
         "name": "MoA DA Register",
         "server url": "",
-        "encryption key": "${ENKETO_ENCRYPTION_KEY}",
-        "authentication" : {
-            "type": "cookie",
-            "url": "http://${KOBOFORM_SUBDOMAIN}.${PUBLIC_DOMAIN_NAME}/accounts/login/?next={RETURNURL}"
-        }
+        "encryption key": "${ENKETO_ENCRYPTION_KEY}"
     },
     "logo": {
         "source": "/images/dg_gray_logo.png",
@@ -44,8 +40,7 @@
         "rating",
         "thousands-sep",
         "../../../node_modules/enketo-image-customization-widget/image-customization",
-        "../../../node_modules/enketo-literacy-test-widget/literacywidget",
-        "../../../node_modules/enketo-ethiopian-calendar-widget/ethiopian-calendar"
+        "../../../node_modules/enketo-literacy-test-widget/literacywidget"
     ],
     "redis": {
         "cache": {
